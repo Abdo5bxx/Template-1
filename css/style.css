@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(landing.css);
+@import url(features.css);
+@import url(services.css);
+@import url(portifolio.css);
+@import url(about.css);
+@import url(contact.css);
+:root{
+    --font1:work sans;
+    --color1:#10cab7;
+    --color2:#2c4755;
+}
+*{
+    scroll-behavior: smooth;
+}

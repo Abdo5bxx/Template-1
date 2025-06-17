@@ -1,0 +1,38 @@
+.features{
+    margin:auto;
+}
+.features .container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-evenly;
+    font-family:work sans;
+    text-align: center;
+    gap:55px;
+}
+.features .container i{
+    color:var(--color1);
+    font-size:60px;
+}
+.feat{
+    width:450px;
+}
+.feat p{
+    color:rgba(0,0,0,0.3);
+    width:100%;
+    text-align: center;
+}
+@media(max-width:480px){
+    .feat p{
+    width:80%;
+    padding-left:45px;
+    }
+}
+@media (max-width:900px) {
+    .features .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
